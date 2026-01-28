@@ -1,6 +1,6 @@
 # Linux-commands-cheatsheet
 
-## Processes Management
+## 1. Processes Management
 
 
 ### view running Processes
