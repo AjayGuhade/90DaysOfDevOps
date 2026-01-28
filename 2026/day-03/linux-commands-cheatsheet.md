@@ -137,7 +137,7 @@
 
     ls -l – View permissions  
 
-#  Networking Troubleshooting
+## 3.Networking Troubleshooting
 ### Network Information
 
     ip a – Show IP addresses
