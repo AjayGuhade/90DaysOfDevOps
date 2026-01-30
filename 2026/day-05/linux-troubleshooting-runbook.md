@@ -47,7 +47,7 @@ A **runbook** is a short, repeatable checklist you follow during an incident: th
 ```bash
 df -h
 ```
-![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-05/02.png)
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-05/05.png)
 
 This command is used to: 
 - detect disk‑full conditions
