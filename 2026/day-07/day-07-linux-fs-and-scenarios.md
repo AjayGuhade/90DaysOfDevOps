@@ -122,7 +122,26 @@ Important subdirectories:
 
 
 ---
+## Scenario-Based Practice (DevOps Style)
+#### Scenario 1: Service Is Down – Check Logs
+    cd /var/log
+    ls
+    sudo less syslog
 
+- Logs are stored in `/var/log`
+
+- Used for debugging runtime issues
+
+---  
+#### Scenario 2: SSH Login Fails
+    sudo less /etc/ssh/sshd_config
+    sudo grep ssh /var/log/auth.log
+
+- Configuration files → `/etc`
+
+- Authentication logs → `/var/log`
+
+---
 ## Key Takeaways
 
 Linux follows a predictable directory structure
