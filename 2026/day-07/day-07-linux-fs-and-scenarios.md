@@ -34,6 +34,8 @@
 #### Command
  `ls /sbin`
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-07/01.png)
+
 ---
 ### `/etc`
 
@@ -51,6 +53,8 @@ Examples:
 #### Command
 `ls /etc`
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-07/02.png)
+
 ---
 ### /var
 
@@ -65,6 +69,8 @@ Important subdirectories:
  - /var/lib → application runtime data
 #### Command
 `ls /var/log`
+
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-07/03.png)
 
 ---
 ### /home
