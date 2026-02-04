@@ -20,6 +20,10 @@
     sudo systemctl start nginx
     sudo systemctl enable nginx
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-08/Screenshot%20From%202026-02-02%2009-30-10.png))
+
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-08/Screenshot%20From%202026-02-02%2009-18-38.png))
+
 ---
 
 ### Web Verification
