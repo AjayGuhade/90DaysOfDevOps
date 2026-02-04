@@ -42,6 +42,8 @@ Example output:
 -rw-r--r-- 1 user user   30 notes.txt  
 -rw-r--r-- 1 user user   20 script.sh  
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-10/02.png)
+
 ---
 ## Task 2: Read Files 
 
@@ -52,6 +54,9 @@ Example output:
 ### View system file data
     head -n 5 /etc/passwd
     tail -n 5 /etc/passwd
+    
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-10/01.png)
+
 ---
     
 ## Task 3: Understand Permissions 
@@ -105,12 +110,17 @@ Group → Read
 
 Others → No access
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-10/03.png)
+
+---
 ### Create directory with permissions
     mkdir project
     chmod 755 project
     ls -ld project
 
- ---   
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-10/04.png)
+
+---   
 ##  Task 5: Test Permissions 
 
 ### Write to read-only file
