@@ -1,6 +1,6 @@
 # Linux Ownership & Group Management – Hands-On Challenge
 
-## Task 1: Understanding Ownership (10 minutes)
+## Task 1: Understanding Ownership 
 
 ### Command
 
@@ -39,7 +39,7 @@ Group → A collection of users who can share access to the file
 
 ---
 
-## Task 2: Basic chown Operations (20 minutes)
+## Task 2: Basic chown Operations 
 
 ### Create File
 
