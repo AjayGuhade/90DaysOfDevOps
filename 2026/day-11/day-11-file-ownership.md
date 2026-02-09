@@ -28,6 +28,8 @@
 
 **filename**	         -  Name of the file
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-11/01.png)
+
 ---
 
 ### 📌 Difference Between Owner and Group
