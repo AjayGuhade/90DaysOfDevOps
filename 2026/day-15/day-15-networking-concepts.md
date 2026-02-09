@@ -29,6 +29,8 @@ Identified from output:
 
 - TTL: ~300 seconds (may vary)
 
+
+
 ## Task 2: IP Addressing
 ### What is an IPv4 address?
 
