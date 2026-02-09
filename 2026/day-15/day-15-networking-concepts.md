@@ -58,6 +58,9 @@ Private IP: Used inside local networks (e.g., 192.168.1.10)
 192.168.x.x (local network interface)
 
 
+![Verify](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-15/01.png))
+
+
 ## Task 3: CIDR & Subnetting
 
 ### What does /24 mean in 192.168.1.0/24?
@@ -107,12 +110,14 @@ Ports help the OS know which application should receive incoming traffic.
   
     ss -tulpn
 
+![Verify](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-15/02.png))
 
 ### Observed Listening Ports:
 
 - `22` → SSH
 
 - `631` → CUPS (printing service) (example)
+
 
 ## Task 5: Putting It Together
 
