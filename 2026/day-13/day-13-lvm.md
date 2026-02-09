@@ -44,6 +44,8 @@ Verify Loop Device
 
 ⚠️ Note: Loop devices mounted under /snap were ignored as they are system-managed.
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-13/01.png))
+
 ## 🧱 Task 2: Create Physical Volume (PV)
 
     pvcreate /dev/loop33
@@ -54,6 +56,8 @@ Verify
 
 
 📸 Screenshot: Physical Volume created
+
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-13/02.png))
 
 ## 🗂️ Task 3: Create Volume Group (VG)
 
@@ -100,6 +104,8 @@ Verify
     touch /mnt/app-data/test.txt
     ls -l /mnt/app-data
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-13/03.png))
+
 ## 📈 Task 6: Extend the Logical Volume
 Extend LV by 200MB
 
@@ -116,6 +122,8 @@ Verify
 
 📸 Screenshot: Extended filesystem size
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-13/04.png))
+
 ## 🧪 Final Verification
      
     lsblk
@@ -126,6 +134,8 @@ Verify
 
 
 📸 Screenshot: Final LVM state
+
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-13/05.png))
 
 ## 📚 What I Learned
 
