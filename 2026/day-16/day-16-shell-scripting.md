@@ -21,6 +21,8 @@ Learn the fundamentals of shell scripting: shebang, variables, user input, and b
 
 Hello, DevOps!
 
+
+
 ### What happens if you remove the shebang?
 
 Without the shebang (#!/bin/bash), the system does not know which interpreter to use.
@@ -51,6 +53,8 @@ Example:
     echo '$NAME'   # Prints $NAME
     echo "$NAME"   # Prints Ajay
 
+![Verify](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-16/04.png))
+
 ## Task 3: User Input with read
 ### Script: greet.sh
 
@@ -66,6 +70,8 @@ Example:
     Enter your name: Ajay
     Enter your favourite tool: Docker
     Hello Ajay, your favourite tool is Docker
+
+![Verify](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-16/02.png))
 
 ## Task 4: If-Else Conditions
 
@@ -87,6 +93,8 @@ Example:
 Enter a number: -5
 The number is negative
 
+
+
 ### Script 2: file_check.sh
     #!/bin/bash
 
@@ -101,6 +109,8 @@ The number is negative
 ### Sample Output
 Enter filename: test.txt
 File exists
+
+![Verify](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-16/01.png))
 
 ## Task 5: Combine It All
 ### Script: server_check.sh
@@ -124,6 +134,8 @@ File exists
 ### Sample Output
     Do you want to check the status of sshd? (y/n): y
     sshd is running
+
+![Verify](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-16/03.png))
 
 ## What I Learned (Key Takeaways)
 
