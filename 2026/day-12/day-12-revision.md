@@ -1,4 +1,4 @@
-# Day 12 – Breather & Revision (Days 01–11)
+# Day 12 – Breather & Revision 
 
 ## Goal
 Pause for one day to consolidate everything learned from Days 01–11 and strengthen fundamentals before moving forward.
@@ -7,7 +7,7 @@ Pause for one day to consolidate everything learned from Days 01–11 and streng
 
 ## What I Reviewed Today
 
-### 1. Mindset & Plan (Day 01 Revisit)
+### 1. Mindset & Plan 
 - Original goal: Build strong Linux + DevOps fundamentals step by step.
 - Status: ✅ On track
 - Tweaks:
@@ -35,7 +35,7 @@ Pause for one day to consolidate everything learned from Days 01–11 and streng
 
 ---
 
-### 3. File Skills Practice (Days 06–11)
+### 3. File Skills Practice 
 
 #### Commands Practiced
     echo "Revision test" >> notes.txt
@@ -54,7 +54,7 @@ Pause for one day to consolidate everything learned from Days 01–11 and streng
 
 ---
 
-### 4. Cheat Sheet Refresh (Day 03)
+### 4. Cheat Sheet Refresh 
 
 #### Top 5 Commands I’d Use First in an Incident
 
