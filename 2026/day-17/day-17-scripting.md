@@ -29,6 +29,8 @@
        echo "Fruit: $fruit"
     done
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-17/01.png)
+
 ### ✅ Output
 
 Fruit: Apple
@@ -36,6 +38,8 @@ Fruit: Banana
 Fruit: Mango
 Fruit: Orange
 Fruit: Grapes
+
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-17/02.png)
 
 ### 📝 count.sh
 
@@ -45,6 +49,8 @@ Fruit: Grapes
     do
        echo $i
     done
+
+
 
 ### ✅ Output
 1
@@ -57,6 +63,8 @@ Fruit: Grapes
 8
 9
 10
+
+
 
 ## 🟢 Task 2 – While Loop
 
@@ -75,6 +83,8 @@ Fruit: Grapes
 
     echo "Done!"
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-17/03.png)
+
 ### ✅ Output Example
 Enter a number:
 7
@@ -88,6 +98,8 @@ Enter a number:
 0
 Done!
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-17/04.png)
+
 ## 🟢 Task 3 – Command-Line Arguments
 ### 📝 greet.sh
  
@@ -100,6 +112,8 @@ Done!
         echo "Hello, $1!"
     fi
 
+
+
 ### ✅ Output
 ./greet.sh Ajay
 Hello, Ajay!
@@ -111,11 +125,15 @@ Hello, Ajay!
     echo "Total Arguments: $#"
     echo "All Arguments: $@"
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-17/05.png)
+
 ### ✅ Output
-./args_demo.sh DevOps Linux Docker
+./args_demo.sh Python Linux Networking Shell Scripting Docker
 Script Name: ./args_demo.sh
-Total Arguments: 3
-All Arguments: DevOps Linux Docker
+Total Arguments: 6
+All Arguments: Python Linux Networking Shell Scripting Docker
+
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-17/06.png)
 
 ## 🟢 Task 4 – Install Packages via Script
 ### 📝 install_packages.sh
@@ -144,6 +162,8 @@ All Arguments: DevOps Linux Docker
         fi
     done
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-17/07.png)
+
 ### ✅  Output
 nginx is already installed. Skipping...
 Installing curl...
@@ -151,6 +171,8 @@ curl installed successfully.
 Installing wget...
 wget installed successfully.
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-17/08.png)
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-17/09.png)
 ## 🟢 Task 5 – Error Handling
 ### 📝 safe_script.sh
 
@@ -166,10 +188,13 @@ wget installed successfully.
 
     echo "Script executed successfully."
 
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-17/10.png)
 ### ✅ Output
 
 Directory already exists
 Script executed successfully.
+
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-17/11.png)
 
 # 📚 What I Learned (3 Key Points)
 
