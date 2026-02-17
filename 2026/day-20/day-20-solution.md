@@ -51,13 +51,17 @@ Included:
 ---
 ## Scrpt:
 `
+![verify](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-20/log_analyzer.sh)
+
 
 
 ## Output:
 
-`
+`![verify](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-20/log_report_2026-02-17.txt)
 
+## Log File:
 
+![verify](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-20/data.txt)
 
 ## Key Learnings
 
