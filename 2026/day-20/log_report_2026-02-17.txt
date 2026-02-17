@@ -1,0 +1,12 @@
+
+===== Log Analysis Report =====
+Date of Analysis: 2026-02-17
+Log File: /home/ajay/scripts/data.txt
+Total Lines Processed: 2000
+Total Errors (ERROR/Failed): 47
+
+--- Top 5 Error Messages ---
+
+
+--- Critical Events ---
+No critical events found.
