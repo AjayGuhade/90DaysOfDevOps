@@ -189,3 +189,34 @@ Temporary area where you prepare changes before committing.
 🟢 Repository
 
 Where commits are permanently stored.
+
+#  Git Notes
+
+## 1. Difference between git add and git commit
+
+git add moves changes to the staging area.
+git commit saves staged changes permanently in the repository.
+
+## 2. What does the staging area do?
+
+The staging area allows selective commits.
+It lets us control what goes into each commit instead of committing everything automatically.
+
+## 3. What does git log show?
+
+Commit history including:
+- Commit ID (hash)
+- Author
+- Date
+- Commit message
+
+## 4. What is the .git/ folder?
+
+The .git folder contains all repository metadata and history.
+If deleted, the project is no longer a Git repository.
+
+## 5. Difference between working directory, staging area, and repository
+
+Working directory → Where files are edited.
+Staging area → Where changes are prepared.
+Repository → Where commits are permanently stored.
