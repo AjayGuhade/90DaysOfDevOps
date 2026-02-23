@@ -2,9 +2,9 @@
 
 ## Today I practiced advanced Git workflows that are used in real-world DevOps and software teams.
 
-### 🔀 Task 1: Git Merge — Hands-On
+### Task 1: Git Merge — Hands-On
 
-#### 🟢 Fast-Forward Merge
+#### Fast-Forward Merge
 
 - What I Did
 
@@ -19,7 +19,7 @@
 
   Git performed a fast-forward merge.
 
-#### ✅ What is a Fast-Forward Merge?
+#### What is a Fast-Forward Merge?
 
 - A fast-forward merge happens when:
 
@@ -29,7 +29,7 @@
 
 👉 History stays linear.
 
-#### 🔵 Merge Commit Scenario
+#### Merge Commit Scenario
 
 - What I Did
 
@@ -40,17 +40,17 @@
 
 - What Happened?
 
-  Git created a merge commit.
+  - Git created a merge commit.
 
-#### ✅ When Does Git Create a Merge Commit?
+- When Does Git Create a Merge Commit?
 
-- When both branches have new commits.
+ - When both branches have new commits.
 
-- Git combines histories.
+ - Git combines histories.
 
-- A new merge commit is created to join them.
+ - A new merge commit is created to join them.
 
-#### 🔴 Merge Conflict
+####  Merge Conflict
 
 - What is a Merge Conflict?
 
@@ -72,7 +72,7 @@ Git marks conflict like this:
 
 You must manually resolve it and commit again.
 
-### 🔁 Task 2: Git Rebase — Hands-On
+### Task 2: Git Rebase — Hands-On
 
 What I Did
 
@@ -88,7 +88,7 @@ What I Did
 
       git rebase main
 
-#### ✅ What Does Rebase Actually Do?
+#### What Does Rebase Actually Do?
 
 Rebase:
 
@@ -100,7 +100,7 @@ Rebase:
 
 - It creates new commit hashes.
 
-#### 📊 History Comparison
+####  History Comparison
 
 Merge History
 
@@ -124,7 +124,7 @@ Command used:
 
 ### Why You Should NEVER Rebase Shared Commits
 
-Rebase rewrites commit history.
+#### Rebase rewrites commit history.
 
 If commits are:
 
@@ -140,13 +140,13 @@ Rebasing will:
 
 ### Rule: Never rebase public/shared branches.
 
-When to Use Rebase vs Merge?
+#### When to Use Rebase vs Merge?
 - Use Rebase	Use Merge
 - Cleaning up local branch	Preserving history
 - Before opening PR	Working in shared branches
 - Making history linear	When team collaboration matters
 
-### 🧱 Task 3: Squash Merge vs Regular Merge
+### Task 3: Squash Merge vs Regular Merge
 
 🔹 Squash Merge
 
@@ -180,118 +180,119 @@ What Happened?
 
 #### 🧠 Trade-Off of Squashing
 
-Squash	Regular Merge
-
-Clean history	Full traceability
-
-One commit only	All commits preserved
-
-Easier to read	More detailed history
+| Squash          | Regular Merge         |
+| --------------- | --------------------- |
+| Clean history   | Full traceability     |
+| One commit only | All commits preserved |
+| Easier to read  | More detailed history |
 
 
-##### Use squash when:
+
+Use squash when:
 
 Feature has many small messy commits.
 
 ### 📦 Task 4: Git Stash — Hands-On
 
-#### What I Did
+What I Did
 
-Modified a file without committing
+- Modified a file without committing
 
-Tried switching branches → Git stopped me
+- Tried switching branches → Git stopped me
 
-Used:
+- Used:
 
-    git stash
+      git stash
 
 What is Git Stash?
 
-    Git stash:
+Git stash:
 
-Saves uncommitted work temporarily
+- Saves uncommitted work temporarily
 
-Cleans working directory
+- Cleans working directory
 
-Allows branch switching
+- Allows branch switching
 
-## Stash Commands Practiced
+#### Stash Commands Practiced
 
     git stash push -m "login work in progress"
     git stash list
     git stash pop
     git stash apply stash@{0}
 
-## 🔎 Difference: stash pop vs stash apply
+#### 🔎 Difference: stash pop vs stash apply
 
-stash pop	stash apply
-Applies and removes stash	Applies but keeps stash
-One-time use	Reusable stash
-When Is Stash Used in Real Life?
+| stash pop                 | stash apply             |
+| ------------------------- | ----------------------- |
+| Applies and removes stash | Applies but keeps stash |
+| One-time use              | Reusable stash          |
 
-Urgent production bug appears
+#### When Is Stash Used in Real Life?
 
-You are mid-feature
+- Urgent production bug appears
 
-Need to switch quickly without committing half-done work
+- You are mid-feature
+
+- Need to switch quickly without committing half-done work
 
 ### 🍒 Task 5: Cherry Pick
 
 #### What I Did
 
-Created feature-hotfix
+- Created feature-hotfix
 
-Made 3 commits
+- Made 3 commits
 
-Switched to main
+- Switched to main
 
-Picked only the 2nd commit:
+- Picked only the 2nd commit:
 
-    git cherry-pick <commit-hash>
+      git cherry-pick <commit-hash>
 
 #### ✅ What Does Cherry Pick Do?
 
 Cherry-pick:
 
-Copies a specific commit
+- Copies a specific commit
 
-Applies it to another branch
+- Applies it to another branch
 
-Does NOT merge entire branch
+- Does NOT merge entire branch
 
-🛠 When Is Cherry Pick Used?
+#### 🛠 When Is Cherry Pick Used?
 
-Urgent hotfix needed in production
+- Urgent hotfix needed in production
 
-Only one specific fix required
+- Only one specific fix required
 
-Backporting bug fixes
+- Backporting bug fixes
 
 #### ⚠️ What Can Go Wrong?
 
-Duplicate commits
+- Duplicate commits
 
-Conflicts
+- Conflicts
 
-Confusing history
+- Confusing history
 
-Harder debugging later
+- Harder debugging later
 
 #### 📌 Final Observations
 
 Today I learned:
 
-Merge preserves history.
+- Merge preserves history.
 
-Rebase rewrites history.
+- Rebase rewrites history.
 
-Squash keeps history clean.
+- Squash keeps history clean.
 
-Stash helps in emergency context switching.
+- Stash helps in emergency context switching.
 
-Cherry-pick applies specific commits only.
+- Cherry-pick applies specific commits only.
 
-These are advanced Git tools used daily in real DevOps workflows.
+- These are advanced Git tools used daily in real DevOps workflows.
 
 ## 🚀 Commands Added to git-commands.md
 
