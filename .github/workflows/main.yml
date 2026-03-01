@@ -15,8 +15,7 @@ on:
 jobs:
 
 # this is the name of the job
-
-    greet:
+greet:
 
 # this is github runner, each job runs on a runner
 
