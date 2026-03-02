@@ -115,10 +115,13 @@ Each pinned repo now:
 ---
 
 ## 📸 Task 6: Before & After
-Before:
-![Verify ]([https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-05/unmae-a.png](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-27/01.png))
-After:
-![Verify ]([https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-05/unmae-a.png](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-27/02.png))
+
+### Before:
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-27/01.png)
+
+
+### After:
+![Verify ](https://github.com/AjayGuhade/90DaysOfDevOps/blob/master/2026/day-27/02.png)
 
 ### Before:
 - Unstructured
