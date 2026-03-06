@@ -1,19 +1,342 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DevOps Engineer Portfolio | Ajay Guhade</title>
-    <meta name="description" content="Fresher DevOps Engineer portfolio showcasing skills in AWS, Docker, Kubernetes, CI/CD, and infrastructure automation." />
-    <meta name="author" content="Ajay Guhade" />
-    <meta property="og:title" content="DevOps Engineer Portfolio" />
-    <meta property="og:description" content="Building reliable infrastructure and automating deployment pipelines." />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ajay Guhade | DevOps Engineer</title>
+
+<meta name="description" content="DevOps Engineer portfolio showcasing Docker, Kubernetes, AWS and CI/CD projects.">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Poppins;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+/* Navbar */
+
+nav{
+position:fixed;
+top:0;
+width:100%;
+background:#020617;
+padding:15px 40px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+z-index:1000;
+}
+
+nav h2{
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+gap:20px;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+font-size:14px;
+}
+
+nav a:hover{
+color:#38bdf8;
+}
+
+/* Hero */
+
+.hero{
+height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.hero h1{
+font-size:48px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+margin-top:10px;
+color:#94a3b8;
+}
+
+button{
+margin-top:25px;
+padding:12px 25px;
+border:none;
+background:#38bdf8;
+color:#000;
+border-radius:5px;
+cursor:pointer;
+font-weight:600;
+}
+
+button:hover{
+background:#0ea5e9;
+}
+
+/* Sections */
+
+section{
+padding:80px 20px;
+max-width:1000px;
+margin:auto;
+}
+
+section h2{
+text-align:center;
+margin-bottom:40px;
+color:#38bdf8;
+}
+
+/* Skills */
+
+.skills{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:20px;
+text-align:center;
+border-radius:10px;
+transition:0.3s;
+cursor:pointer;
+}
+
+.skill:hover{
+transform:scale(1.05);
+background:#334155;
+}
+
+/* Projects */
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.project{
+background:#1e293b;
+padding:25px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.project:hover{
+transform:translateY(-8px);
+background:#334155;
+}
+
+/* Contact */
+
+.contact{
+text-align:center;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+color:#94a3b8;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav>
+
+<h2>Ajay DevOps</h2>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+
+</nav>
+
+<section class="hero">
+
+<h1>Hello, I'm <span>Ajay Guhade</span></h1>
+
+<p id="typing"></p>
+
+<button onclick="scrollToSection()">View My Work</button>
+
+</section>
+
+<section id="about">
+
+<h2>About Me</h2>
+
+<p style="text-align:center;color:#94a3b8;max-width:700px;margin:auto;">
+
+Aspiring DevOps Engineer passionate about building scalable infrastructure,
+automating deployment pipelines and improving software reliability.
+
+Currently on a <b>90 Days of DevOps</b> journey mastering Docker,
+Kubernetes, AWS and CI/CD.
+
+</p>
+
+</section>
+
+<section id="skills">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<div class="skill">Linux</div>
+<div class="skill">Docker</div>
+<div class="skill">Kubernetes</div>
+<div class="skill">AWS</div>
+<div class="skill">CI/CD</div>
+<div class="skill">Git</div>
+<div class="skill">Bash</div>
+<div class="skill">Python</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+
+<h3>90 Days of DevOps</h3>
+
+<p>
+Documenting my DevOps journey including Linux,
+Docker containers, CI/CD pipelines and automation.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>Dockerized Portfolio</h3>
+
+<p>
+Built a containerized portfolio website using
+Docker and Nginx to demonstrate container deployment.
+</p>
+
+</div>
+
+<div class="project">
+
+<h3>Job Scraper Automation</h3>
+
+<p>
+Automated script to scrape DevOps internship jobs
+and send email alerts daily.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Contact</h2>
+
+<p>Email: ajayguhade2004@gmail.com</p>
+
+<p>
+GitHub:
+<a href="https://github.com/AjayGuhade" target="_blank">AjayGuhade</a>
+</p>
+
+<p>
+Linkedin:
+<a href="https://linkedin.com/in/ajayguhade2004" target="_blank">
+linkedin.com/in/ajayguhade2004
+</a>
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 Ajay Guhade | DevOps Engineer Portfolio</p>
+
+</footer>
+
+<script>
+
+/* typing effect */
+
+const text = "DevOps Engineer | Docker | Kubernetes | AWS | CI/CD";
+
+let i = 0;
+
+function typing(){
+
+if(i < text.length){
+
+document.getElementById("typing").innerHTML += text.charAt(i);
+
+i++;
+
+setTimeout(typing,50);
+
+}
+
+}
+
+typing();
+
+/* smooth scroll button */
+
+function scrollToSection(){
+
+document.getElementById("projects").scrollIntoView();
+
+}
+
+</script>
+
+</body>
+
 </html>
