@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  nginx:
+    image: nginx:latest
+    container_name: compose-nginx
+    ports:
+      - "8080:80"

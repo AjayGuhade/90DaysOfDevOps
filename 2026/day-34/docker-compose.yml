@@ -1,0 +1,51 @@
+version: "3.9"
+
+services:
+
+  web:
+    build: ./app
+    ports:
+      - "5000:5000"
+    environment:
+      DB_HOST: db
+      REDIS_HOST: redis
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - devops-network
+    labels:
+      project: "90DaysOfDevOps"
+      service: "web"
+
+  db:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_DB: devopsdb
+      POSTGRES_USER: devops
+      POSTGRES_PASSWORD: devops
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - devops-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U devops"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    labels:
+      service: "database"
+
+  redis:
+    image: redis:7
+    networks:
+      - devops-network
+    labels:
+      service: "cache"
+
+networks:
+  devops-network:
+
+volumes:
+  postgres_data:
