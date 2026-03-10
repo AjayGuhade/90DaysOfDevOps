@@ -1,0 +1,38 @@
+
+
+services:
+
+  app:
+    build: .
+    container_name: notes-app
+    ports:
+      - "5000:5000"
+    env_file:
+      - .env
+    depends_on:
+      db:
+        condition: service_healthy
+    networks:
+      - notes-network
+
+  db:
+    image: postgres:15-alpine
+    container_name: notes-db
+    environment:
+      POSTGRES_DB: ${DB_NAME}
+      POSTGRES_USER: ${DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER} -d ${DB_NAME}"]
+      interval: 5s
+      retries: 5
+    networks:
+      - notes-network
+
+volumes:
+  postgres-data:
+
+networks:
+  notes-network:
