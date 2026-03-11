@@ -1,0 +1,22 @@
+---
+server:
+  name: dev-server
+  ip: 192.168.1.10
+  port: 8080
+
+database:
+  host: localhost
+  name: devopsdb
+  credentials:
+    user: admin
+    password: secret123
+
+startup_script: |
+  echo "Starting server"
+  docker start app
+  echo "Server started"
+
+description: >
+  This server runs
+  the development
+  environment for testing.
