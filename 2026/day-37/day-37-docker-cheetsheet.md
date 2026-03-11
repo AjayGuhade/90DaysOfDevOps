@@ -111,3 +111,5 @@ A quick reference for commonly used Docker commands.
 `CMD ["python","app.py"] `     # Default command
 
 `ENTRYPOINT ["python"]    `    # Main executable
+
+`ENTRYPOINT ["python"] `       # Main executable
