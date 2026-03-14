@@ -1,4 +1,4 @@
-    # Day 41 – GitHub Actions Triggers & Matrix Builds
+# Day 41 – GitHub Actions Triggers & Matrix Builds
 
 ## Pull Request Trigger
 
@@ -7,8 +7,6 @@ Workflow: pr-check.yml
 Explanation:
 Runs when a pull request targets the main branch.
 
-Screenshot:
-(Add PR check screenshot)
 
 ---
 
@@ -37,8 +35,7 @@ Workflow: manual.yml
 Explanation:
 Triggered manually from the GitHub Actions tab.
 
-Screenshot:
-(Add run workflow screenshot)
+
 
 ---
 

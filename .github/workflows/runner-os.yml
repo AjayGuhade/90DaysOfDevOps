@@ -1,0 +1,43 @@
+name: Runner OS Test
+
+on: push
+
+jobs:
+
+  ubuntu-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print runner info
+        run: |
+          echo "OS: Ubuntu"
+          hostname
+          whoami
+
+  windows-job:
+    runs-on: windows-latest
+    steps:
+      - name: Print runner info
+        run: |
+          echo "OS: Windows"
+          hostname
+          whoami
+
+  macos-job:
+    runs-on: macos-latest
+    steps:
+      - name: Print runner info
+        run: |
+          echo "OS: macOS"
+          hostname
+          whoami
+
+tools-check:
+  runs-on: ubuntu-latest
+
+  steps:
+    - name: Check installed tools
+      run: |
+        docker --version
+        python --version
+        node --version
+        git --version
