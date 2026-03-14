@@ -10,9 +10,6 @@ Jobs ran on:
 - windows-latest
 - macos-latest
 
-Screenshot:
-(Add Actions page screenshot)
-
 ---
 
 ## Preinstalled Tools
@@ -36,9 +33,6 @@ Steps:
 2. Configure with repo token
 3. Start runner
 
-Screenshot:
-(Self hosted runner showing Idle)
-
 ---
 
 ## Workflow Using Self Hosted Runner
@@ -47,9 +41,6 @@ Workflow:
 self-hosted.yml
 
 The job ran on my machine and created a file.
-
-Screenshot:
-(Job logs)
 
 ---
 
