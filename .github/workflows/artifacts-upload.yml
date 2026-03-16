@@ -1,0 +1,17 @@
+name: Secret Env Demo
+
+on: push
+
+jobs:
+  docker-login:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Use secrets in env
+        env:
+          DOCKER_USER: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_TOKEN: ${{ secrets.DOCKER_TOKEN }}
+
+        run: |
+          echo "Logging into Docker Hub"
+          echo $DOCKER_TOKEN | docker login -u $DOCKER_USER --password-stdin
