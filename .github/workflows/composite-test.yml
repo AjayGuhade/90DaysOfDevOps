@@ -1,0 +1,14 @@
+name: Test Composite Action
+
+on: push
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Use Custom Action
+        uses: ./.github/actions/setup-and-greet
+        with:
+          name: "Ajay"
+          language: "en"
