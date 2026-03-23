@@ -39,3 +39,7 @@ jobs:
           else
             echo "PR description present"
           fi
+      - name: Check Dependencies for Vulnerabilities
+        uses: actions/dependency-review-action@v4
+        with:
+          fail-on-severity: critical

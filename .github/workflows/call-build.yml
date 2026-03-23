@@ -21,3 +21,11 @@ jobs:
     steps:
       - name: Print Version
         run: echo "Build version is ${{ needs.build.outputs.build_version }}"
+
+      - name: Scan Docker Image for Vulnerabilities
+        uses: aquasecurity/trivy-action@master
+        with:
+          image-ref: 'your-dockerhub-username/your-image:latest'
+          format: 'table'
+          exit-code: '1'
+          severity: 'CRITICAL,HIGH'
